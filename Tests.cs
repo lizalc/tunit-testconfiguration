@@ -12,7 +12,7 @@ public class Tests
 public sealed class Hooks
 {
     [AfterEvery(Test)]
-    public static void AfterTest(TestContext testContext)
+    public static void AfterTest()
     {
         Console.WriteLine("After every test");
     }
